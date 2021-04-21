@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Linguaagem de programação</h2>
+
+    <main>
+        <p>Para saber mais, clique no <a href="#">link</a></p>
+
+        <a href="#"><img style="width: 100px; height: auto;" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.m.wikipedia.org%2Fwiki%2FFicheiro%3AUnofficial_JavaScript_logo_2.svg&psig=AOvVaw1SMpsUYbxHXIMegJGXcvyn&ust=1618971352800000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCym7Xgi_ACFQAAAAAdAAAAABAD" alt=""></a>
+
+        <p>Linguagens de programação:</p>
+        <ul id="listaUl">
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
+        <p>Tecnologias complementares:</p>
+        <ol>
+            <li>Mysql</li>
+            <li>Insomnia</li>
+            <li>GitHub</li>
+        </ol>
+
+        <form action="">
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor-outdoor"></label>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"></label>
+            <label for="loving"><input id="backend" type="checkbox" name="especializacao" value="backend"></label>
+            <label for="lazy"><input id="frontend" type="checkbox" name="personality" value="frontend"></label>
+            <label for="energetic"><input id="fullstack" type="checkbox" name="personality" value="fullstack"></label>
+            <input id="texto-curriculo" type="text" placeholder="Curriculo">
+            <button onclick="mostraValor()" type="submit">Submit</button>
+        </form>
+
+        <div class="container">
+            <div class="content">
+                <div id="Cadastro">
+                    <form action="">
+                        <fieldset>
+                            <legend><h1>Cadastro</h1></legend>
+                            <p>
+                                <label for="id_cad">Id</label>
+                                <input type="number" name="nome_cad" readonly value="5">
+                            </p>
+
+                            <p>
+                                <label for="end_card">Seu endereço</label>
+                                <input type="text" name="end_cad" required id="end_cad" placeholder="Digite seu endereço">
+                            </p>
+
+                            <p>
+                                <label for="idade_cad">Sua idade</label>
+                                <input type="text" name="idade_cad" required id="idade_cad" placeholder="Digite sua idade">
+                            </p>
+
+                            <p>
+                                <input type="submit" value="Update">
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="funcoes.js"></script>
+</body>
+</html>
